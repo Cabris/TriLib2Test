@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44824904, g: 0.49827605, b: 0.5755831, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -664,8 +664,7 @@ MonoBehaviour:
   _loadLightsToggle: {fileID: 2052455689}
   _skyboxRenderer: {fileID: 1869889222}
   _light: {fileID: 1361698510}
-  _skyboxMaterialPreset: {fileID: 2100000, guid: b634952291872fd41b5cda8249a9bedf,
-    type: 2}
+  _skyboxMaterialPreset: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   _reflectionProbe: {fileID: 54365623}
   _skyboxExposureSlider: {fileID: 386347461}
   _loadingTimeText: {fileID: 1310066904}
@@ -3561,7 +3560,7 @@ Camera:
   m_GameObject: {fileID: 833394073}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.1698113, g: 0.1698113, b: 0.1698113, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -5209,6 +5208,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
+  m_ShouldActivateOnSelect: 1
 --- !u!222 &1362597412
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6781,7 +6781,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b634952291872fd41b5cda8249a9bedf, type: 2}
+  - {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
