@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TriLib/TriLibSamples/AssetViewer/AssetViewer.unity
     guid: 8a818d2b4ce6c2540a14f595e69acdde
+  - enabled: 1
+    path: Assets/Scenes/fromURL.unity
+    guid: 1fe922b40c6e39c49b1ec2e7746f3df2
   m_configObjects: {}
